@@ -1,0 +1,24 @@
+{
+  "name": "absolute-urls",
+  "version": "1.0.0",
+  "description": "Web component and a React wrapper example, to convert relative hrefs and srcs to absolute paths",
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard",
+    "fix": "npm run lint -- --fix"
+  },
+  "author": "Ville Leppänen",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^17.0.1"
+  },
+  "devDependencies": {
+    "standard": "^16.0.3"
+  },
+  "standard": {
+    "globals": [
+      "customElements",
+      "HTMLElement"
+    ]
+  }
+}
